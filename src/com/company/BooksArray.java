@@ -16,7 +16,7 @@ public class BooksArray {
 
     public void add(Book book){
         if(books!=null) {
-            if (size < capacity) {
+            if (size < capacity) { // so tired
                 books[size] = book;
                 size++;
             } else {
